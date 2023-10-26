@@ -15,6 +15,9 @@
 		8E2C3DDA2AE9E29700150388 /* MyLoginPageSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DD92AE9E29700150388 /* MyLoginPageSwiftUIUITests.swift */; };
 		8E2C3DDC2AE9E29700150388 /* MyLoginPageSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DDB2AE9E29700150388 /* MyLoginPageSwiftUIUITestsLaunchTests.swift */; };
 		8E2C3DEB2AE9E2E100150388 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DEA2AE9E2E100150388 /* LoginView.swift */; };
+		8E2C3DED2AE9E48D00150388 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DEC2AE9E48D00150388 /* LogoView.swift */; };
+		8E2C3DEF2AE9E4D100150388 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DEE2AE9E4D100150388 /* LoginFormView.swift */; };
+		8E2C3DF12AE9E50600150388 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DF02AE9E50600150388 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		8E2C3DD92AE9E29700150388 /* MyLoginPageSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoginPageSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8E2C3DDB2AE9E29700150388 /* MyLoginPageSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoginPageSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8E2C3DEA2AE9E2E100150388 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8E2C3DEC2AE9E48D00150388 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		8E2C3DEE2AE9E4D100150388 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		8E2C3DF02AE9E50600150388 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2C3DEA2AE9E2E100150388 /* LoginView.swift */,
+				8E2C3DF02AE9E50600150388 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -142,6 +149,8 @@
 		8E2C3DE92AE9E2B700150388 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8E2C3DEC2AE9E48D00150388 /* LogoView.swift */,
+				8E2C3DEE2AE9E4D100150388 /* LoginFormView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -277,6 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2C3DEB2AE9E2E100150388 /* LoginView.swift in Sources */,
+				8E2C3DED2AE9E48D00150388 /* LogoView.swift in Sources */,
+				8E2C3DEF2AE9E4D100150388 /* LoginFormView.swift in Sources */,
+				8E2C3DF12AE9E50600150388 /* HomeView.swift in Sources */,
 				8E2C3DC12AE9E29500150388 /* ContentView.swift in Sources */,
 				8E2C3DBF2AE9E29500150388 /* MyLoginPageSwiftUIApp.swift in Sources */,
 			);
