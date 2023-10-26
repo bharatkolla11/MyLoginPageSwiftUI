@@ -14,6 +14,7 @@
 		8E2C3DD02AE9E29700150388 /* MyLoginPageSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DCF2AE9E29700150388 /* MyLoginPageSwiftUITests.swift */; };
 		8E2C3DDA2AE9E29700150388 /* MyLoginPageSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DD92AE9E29700150388 /* MyLoginPageSwiftUIUITests.swift */; };
 		8E2C3DDC2AE9E29700150388 /* MyLoginPageSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DDB2AE9E29700150388 /* MyLoginPageSwiftUIUITestsLaunchTests.swift */; };
+		8E2C3DEB2AE9E2E100150388 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3DEA2AE9E2E100150388 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8E2C3DD52AE9E29700150388 /* MyLoginPageSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLoginPageSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2C3DD92AE9E29700150388 /* MyLoginPageSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoginPageSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8E2C3DDB2AE9E29700150388 /* MyLoginPageSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoginPageSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E2C3DEA2AE9E2E100150388 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,8 @@
 		8E2C3DBD2AE9E29500150388 /* MyLoginPageSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8E2C3DE92AE9E2B700150388 /* Components */,
+				8E2C3DE82AE9E2A700150388 /* Views */,
 				8E2C3DBE2AE9E29500150388 /* MyLoginPageSwiftUIApp.swift */,
 				8E2C3DC02AE9E29500150388 /* ContentView.swift */,
 				8E2C3DC22AE9E29700150388 /* Assets.xcassets */,
@@ -125,6 +129,21 @@
 				8E2C3DDB2AE9E29700150388 /* MyLoginPageSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = MyLoginPageSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		8E2C3DE82AE9E2A700150388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C3DEA2AE9E2E100150388 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E2C3DE92AE9E2B700150388 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2C3DEB2AE9E2E100150388 /* LoginView.swift in Sources */,
 				8E2C3DC12AE9E29500150388 /* ContentView.swift in Sources */,
 				8E2C3DBF2AE9E29500150388 /* MyLoginPageSwiftUIApp.swift in Sources */,
 			);
